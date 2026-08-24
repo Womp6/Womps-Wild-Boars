@@ -1,32 +1,52 @@
-# MultiLoader Template
+![Womp's Wild Boars](https://github.com/Womp6/Womps-Wild-Boars/blob/26.1.0-2/common/src/main/resources/banner.png?raw=true)
 
-This project provides a Gradle project template that can compile Minecraft mods for multiple modloaders using a common project for the sources. This project does not require any third party libraries or dependencies. If you have any questions or want to discuss the project, please join our [Discord](https://discord.myceliummod.network).
+<p align="center">
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/897290?style=for-the-badge&logo=curseforge&color=5e3608&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fwomps-shellfish-mod"></a>
+</p>
 
-## Getting Started
+<p align="center">
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/fabric-api"><img alt=“Requires Fabric API” src="https://img.shields.io/badge/FABRIC_DEPENDENCIES-FABRIC_API-white?style=for-the-badge&logoColor=white&color=%235e3608"></a> 
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-shellfish-mod"><img alt=“No Forge Dependencies” src="https://img.shields.io/badge/FORGE_DEPENDENCIES-NONE-white?style=for-the-badge&logoColor=white&color=%235e3608"></a>
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-shellfish-mod"><img alt=“No NeoForge Dependencies” src="https://img.shields.io/badge/NEOFORGE_DEPENDENCIES-NONE-white?style=for-the-badge&logoColor=white&color=%235e3608"></a>
+</p>
 
-### IntelliJ IDEA
-This guide will show how to import the MultiLoader Template into IntelliJ IDEA. The setup process is roughly equivalent to setting up the modloaders independently and should be very familiar to anyone who has worked with their MDKs.
+## Welcome To Womp's Wild Boars!
 
-1. Clone or download this repository to your computer.
-2. Configure the project by setting the properties in the `gradle.properties` file. You will also need to change the `rootProject.name`  property in `settings.gradle`, this should match the folder name of your project, or else IDEA may complain.
-3. Open the template's root folder as a new project in IDEA. This is the folder that contains this README.md file and the gradlew executable.
-4. If your default JVM/JDK is not Java 21 you will encounter an error when opening the project. This error is fixed by going to `File > Settings > Build, Execution, Deployment > Build Tools > Gradle > Gradle JVM` and changing the value to a valid Java 21 JVM. You will also need to set the Project SDK to Java 21. This can be done by going to `File > Project Structure > Project SDK`. Once both have been set open the Gradle tab in IDEA and click the refresh button to reload the project.
-5. Open your Run/Debug Configurations. Under the `Application` category there should now be options to run Fabric and NeoForge projects. Select one of the client options and try to run it.
-6. Assuming you were able to run the game in step 5 your workspace should now be set up.
+Want to spice up your world with a small and simple mod? Add some wild boars! These boars are no ordinary animals, as they will sniff for food, pick sweet berries off of bushes, and even destroy crops, all just to eat a meal. They come in two variants, though have a universal child appearance, so which boar you breed will be a mystery until they grow up!
+<p></p>
+Feel free to use this mod in modpacks on CurseForge!
 
-### Eclipse
-While it is possible to use this template in Eclipse it is not recommended. During the development of this template multiple critical bugs and quirks related to Eclipse were found at nearly every level of the required build tools. While we continue to work with these tools to report and resolve issues support for projects like these are not there yet. For now Eclipse is considered unsupported by this project. The development cycle for build tools is notoriously slow so there are no ETAs available.
+## 🐗 About the Wild Boars
 
-## Development Guide
-When using this template the majority of your mod should be developed in the `common` project. The `common` project is compiled against the vanilla game and is used to hold code that is shared between the different loader-specific versions of your mod. The `common` project has no knowledge or access to ModLoader specific code, apis, or concepts. Code that requires something from a specific loader must be done through the project that is specific to that loader, such as the `fabric` or `neoforge` projects.
+<table align="center" style="border-collapse: collapse;">
+  <tbody>
+    <tr>
+      <td style="padding: 10px; text-align: left; border: none;"><strong>🍖 Diet</strong></td>
+      <td style="padding: 10px; text-align: left; border: none;">The boars will scavenge for food on the ground, eating cod, salmon, sweet berries, eggs, seeds, apples, carrots, potatoes, beetroot, mushrooms, and rabbit. However, they can only be bred with cod, salmon, sweet berries, apples, carrots, potatoes, and beetroot.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; text-align: left; border: none; width: 80px;"><strong>📋 Behavior</strong></td>
+      <td style="padding: 10px; text-align: left; border: none;">The boars will walk and occasionally run around the world. When looking around, they may scratch their ears. When hungry, they will sniff the ground to occasionally find food, scavenge for food, pick sweet berries off of bushes, and even destroy crops to eat them.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; text-align: left; border: none;"><strong>🎯 Prey</strong></td>
+      <td style="padding: 10px; text-align: left; border: none;">When hungry, the boars will hunt rabbits, frogs, and baby chickens. When attacked by anything, they will work in a group to take revenge. If a player approaches and they are with a baby, they will attack the player to protect the baby.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; text-align: left; border: none;"><strong>🥩 Drops</strong></td>
+      <td style="padding: 10px; text-align: left; border: none;">When killed, boars drop a new type of meat: raw boar. This meat can be cooked into cooked boar, which restores 3.5 hunger points when consumed, though raw boar only restores 1.5 hunger points.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; text-align: left; border: none;"><strong>🐗 Variants</strong></td>
+      <td style="padding: 10px; text-align: left; border: none;">There are two types of wild boar: black boars and brown boars. Black boars have a 70% frequency, versus the brown boar 30% frequency. Boars may or may not have tusks, though having them is far more common. All babies look the same, with light and dark stripes.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; text-align: left; border: none;"><strong>🌎 Spawns</strong></td>
+      <td style="padding: 10px; text-align: left; border: none;">Wild boars spawn in a variety of locations. Boars spawn frequently and in large groups in regular forests, birch forests, spruce forests, and a bit less frequently in dark oak and snowy forests. They also rarely spawn in jungles and plains in small groups.</td>
+    </tr>
+  </tbody>
+</table>
 
-Loader specific projects such as the `fabric` and `neoforge` project are used to load the `common` project into the game. These projects also define code that is specific to that loader. Loader specific projects can access all the code in the `common` project. It is important to remember that the `common` project can not access code from loader specific projects.
+## ⁉️ Have Feedback?
 
-## Removing Platforms and Loaders
-While this template has support for many modloaders, new loaders may appear in the future, and existing loaders may become less relevant.
-
-Removing loader specific projects is as easy as deleting the folder, and removing the `include("projectname")` line from the `settings.gradle` file.
-For example if you wanted to remove support for `forge` you would follow the following steps:
-
-1. Delete the subproject folder. For example, delete `MultiLoader-Template/forge`.
-2. Remove the project from `settings.gradle`. For example, remove `include("forge")`. 
+[Send it here!](https://forms.gle/Kho3zCbjsDaLF3Mg7) All suggestions are welcome.
