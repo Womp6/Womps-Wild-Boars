@@ -1,13 +1,13 @@
 ![Womp's Wild Boars](https://github.com/Womp6/Womps-Wild-Boars/blob/26.1.0-2/common/src/main/resources/banner.png?raw=true)
 
 <p align="center">
-  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/897290?style=for-the-badge&logo=curseforge&color=5e3608&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fwomps-shellfish-mod"></a>
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/897290?style=for-the-badge&logo=curseforge&color=5e3608&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fwomps-wild-boars"></a>
 </p>
 
 <p align="center">
   <a href = "https://www.curseforge.com/minecraft/mc-mods/fabric-api"><img alt=“Requires Fabric API” src="https://img.shields.io/badge/FABRIC_DEPENDENCIES-FABRIC_API-white?style=for-the-badge&logoColor=white&color=%235e3608"></a> 
-  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-shellfish-mod"><img alt=“No Forge Dependencies” src="https://img.shields.io/badge/FORGE_DEPENDENCIES-NONE-white?style=for-the-badge&logoColor=white&color=%235e3608"></a>
-  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-shellfish-mod"><img alt=“No NeoForge Dependencies” src="https://img.shields.io/badge/NEOFORGE_DEPENDENCIES-NONE-white?style=for-the-badge&logoColor=white&color=%235e3608"></a>
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt=“No Forge Dependencies” src="https://img.shields.io/badge/FORGE_DEPENDENCIES-NONE-white?style=for-the-badge&logoColor=white&color=%235e3608"></a>
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt=“No NeoForge Dependencies” src="https://img.shields.io/badge/NEOFORGE_DEPENDENCIES-NONE-white?style=for-the-badge&logoColor=white&color=%235e3608"></a>
 </p>
 
 ## Welcome To Womp's Wild Boars!
