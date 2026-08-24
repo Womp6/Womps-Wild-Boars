@@ -1,0 +1,102 @@
+{
+    "entity.wild_boar.ambient": {
+        "category": "entity",
+        "subtitle": "subtitles.entity.wild_boar.ambient",
+        "sounds": [
+            {
+                "name": "boars:entity/wild_boar/ambient1",
+                "pitch": 0.8
+            },
+            {
+                "name": "boars:entity/wild_boar/ambient2"
+            },
+            {
+                "name": "boars:entity/wild_boar/ambient3"
+            }
+        ]
+    },
+    "entity.wild_boar.hurt": {
+        "category": "entity",
+        "subtitle": "subtitles.entity.wild_boar.hurt",
+        "sounds": [
+            {
+                "name": "boars:entity/wild_boar/hurt1",
+                "pitch": 0.5
+            },
+            {
+                "name": "boars:entity/wild_boar/hurt2",
+                "pitch": 0.5
+            }
+        ]
+    },
+    "entity.wild_boar.death": {
+        "category": "entity",
+        "subtitle": "subtitles.entity.wild_boar.death",
+        "sounds": [
+            {
+                "name": "boars:entity/wild_boar/death",
+                "pitch": 0.7
+            }
+        ]
+    },
+    "entity.wild_boar.warn": {
+        "category": "entity",
+        "subtitle": "subtitles.entity.wild_boar.warn",
+        "sounds": [
+            {
+                "name": "boars:entity/wild_boar/warn1"
+            },
+            {
+                "name": "boars:entity/wild_boar/warn2",
+                "volume": 2.5
+            }
+        ]
+    },
+    "entity.wild_boar.sniff": {
+        "category": "entity",
+        "subtitle": "subtitles.entity.wild_boar.sniff",
+        "sounds": [
+            {
+                "name": "boars:entity/wild_boar/sniff1",
+                "volume": 0.7
+            },
+            {
+                "name": "boars:entity/wild_boar/sniff2",
+                "volume": 0.7
+            },
+            {
+                "name": "boars:entity/wild_boar/sniff3",
+                "volume": 0.7
+            },
+            {
+                "name": "boars:entity/wild_boar/sniff4",
+                "volume": 0.7
+            }
+        ]
+    },
+    "entity.wild_boar.step": {
+        "category": "entity",
+        "sounds": [
+            {
+                "name": "minecraft:mob/pig/step1",
+                "pitch": 0.6
+            },
+            {
+                "name": "minecraft:mob/pig/step2",
+                "pitch": 0.6
+            },
+            {
+                "name": "minecraft:mob/pig/step3",
+                "pitch": 0.6
+            },
+            {
+                "name": "minecraft:mob/pig/step4",
+                "pitch": 0.6
+            },
+            {
+                "name": "minecraft:mob/pig/step5",
+                "pitch": 0.6
+            }
+        ]
+    }
+}

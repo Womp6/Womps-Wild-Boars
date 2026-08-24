@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_boar": {
+      "conditions": {
+        "items": [
+          {
+            "items": "boars:boar"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "boars:cooked_boar"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_boar"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "boars:cooked_boar"
+    ]
+  }
+}

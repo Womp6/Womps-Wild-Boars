@@ -1,0 +1,8 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": "boars:boar",
+    "result": {
+      "id": "boars:cooked_boar"
+    },
+    "experience": 0.35
+  }

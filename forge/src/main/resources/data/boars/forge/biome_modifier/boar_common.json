@@ -1,0 +1,16 @@
+{
+  "type" : "forge:add_spawns",
+  "biomes": [
+    "minecraft:dark_forest",
+    "minecraft:snowy_taiga",
+    "minecraft:windswept_forest"
+  ],
+  "spawners": [
+    {
+      "type": "boars:wild_boar",
+      "weight": 8,
+      "minCount": 2,
+      "maxCount": 5
+    }
+  ]
+}

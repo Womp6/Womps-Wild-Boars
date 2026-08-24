@@ -1,0 +1,16 @@
+{
+    "item.boars.boar": "Raw Boar",
+    "item.boars.cooked_boar": "Cooked Boar",
+    "item.boars.wild_boar_spawn_egg": "Wild Boar Spawn Egg",
+
+    "entity.boars.wild_boar": "Wild Boar",
+
+    "tag.item.boars.boar_food": "Boar Food",
+    "tag.item.boars.boar_breed": "Boar Breeding Food",
+    
+    "subtitles.entity.wild_boar.ambient": "Wild boar snorts",
+    "subtitles.entity.wild_boar.hurt": "Wild boar hurts",
+    "subtitles.entity.wild_boar.death": "Wild boar dies",
+    "subtitles.entity.wild_boar.warn": "Wild boar huffs",
+    "subtitles.entity.wild_boar.sniff": "Wild boar sniffs"
+}

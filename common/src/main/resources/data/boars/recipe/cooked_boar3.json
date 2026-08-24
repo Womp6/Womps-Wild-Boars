@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:campfire_cooking",
+    "ingredient": "boars:boar",
+    "result": {
+      "id": "boars:cooked_boar"
+    },
+    "experience": 0.35,
+    "cookingtime": 600
+  }
