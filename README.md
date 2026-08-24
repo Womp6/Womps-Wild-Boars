@@ -1,7 +1,7 @@
 ![Womp's Wild Boars](https://github.com/Womp6/Womps-Wild-Boars/blob/26.1.0-2/common/src/main/resources/banner.png?raw=true)
 
 <p align="center">
-  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/897290?style=for-the-badge&logo=curseforge&color=5e3608&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fwomps-wild-boars"></a>
+  <a href = "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"><img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/1667158?style=for-the-badge&logo=curseforge&color=5e3608&link=https%3A%2F%2Fwww.curseforge.com%2Fminecraft%2Fmc-mods%2Fwomps-wild-boars"></a>
 </p>
 
 <p align="center">
