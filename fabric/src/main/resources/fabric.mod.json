@@ -8,6 +8,7 @@
         "${mod_author}"
     ],
     "contact": {
+        "homepage": "https://www.curseforge.com/minecraft/mc-mods/womps-wild-boars"
     },
     "license": "${license}",
     "icon": "icon.png",
