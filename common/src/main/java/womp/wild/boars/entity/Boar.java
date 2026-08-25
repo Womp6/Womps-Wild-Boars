@@ -29,6 +29,7 @@ import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.EntityReference;
 import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.EntityTypes;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.NeutralMob;
 import net.minecraft.world.entity.Pose;
@@ -70,7 +71,7 @@ import womp.wild.boars.util.BoarTags;
 public class Boar extends Animal implements NeutralMob {
 
     private static final UniformInt PERSISTENT_ANGER_TIME = TimeUtil.rangeOfSeconds(40, 60);
-    private static final Selector PREY_SELECTOR = (target, level) -> target.is(EntityType.RABBIT) || target.is(EntityType.FROG) || (target.is(EntityType.CHICKEN) && target.isBaby());
+    private static final Selector PREY_SELECTOR = (target, level) -> target.is(EntityTypes.RABBIT) || target.is(EntityTypes.FROG) || (target.is(EntityTypes.CHICKEN) && target.isBaby());
     private static final Predicate<ItemEntity> ALLOWED_ITEMS = e -> !e.hasPickUpDelay() && e.isAlive() && e.getItem().is(BoarTags.Items.BOAR_FOOD);
     private long persistentAngerEndTime;
 	private @Nullable EntityReference<LivingEntity> persistentAngerTarget;
